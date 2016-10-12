@@ -8,24 +8,26 @@
 /* ESTILO GENERAL */
 
 header.hero
-{background: yellow;
-    color: blueviolet;
-    height: 600px;
+{background: #000000;
+    color: #FFFFFF;
+    height: 100%;
     padding: 100px;
     box-sizing: border-box;
     text-align: center;
 }
 
 header.hero h1 {
-    font-size: 3em;
-    font-family: sans-serif;
+    font-size: 5em;
+   font-family: "Montserrat";
+   letter-spacing: 50px;
+    text-align: center;
 }
 
 header.hero a {
     display: block;
-    width: 200px;
+    width: 70%;
     box-sizing: border-box;
-    border: 2px solid #fff;
+    border: 10px solid #fff;
     margin: 40px auto;
     color: #fff;
     font-family: sans-serif;
@@ -35,7 +37,7 @@ header.hero a {
 }
 
 header.hero .fa{
-    font-size: 4em;
+    font-size: 1em;
     display: block;
 }
 
