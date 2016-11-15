@@ -5,140 +5,113 @@
     padding: 0;
 }
 
-/* ESTILO GENERAL */
+.menu{
 
-header.hero
-{background: yellow;
-    color: blueviolet;
-    height: 600px;
-    padding: 100px;
-    box-sizing: border-box;
-    text-align: center;
+    color:black;
+    font-size: 15px;
 }
 
-header.hero h1 {
-    font-size: 3em;
-    font-family: sans-serif;
+
+.principal{
+    height: 120px:
 }
 
-header.hero a {
+
+
+
+
+
+
+
+header ul{
+  list-style: none;
+}
+header ul a{
+  color:#000;
+  text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+_________________________
+
+
+.logotipo{
+    padding: 30px;
+}
+.logotipo img{ max-height: 80px;}
+.menu{
+    background: #000;
+}
+.menu ul{
+    list-style: none;
+}
+.menu a{
     display: block;
-    width: 200px;
-    box-sizing: border-box;
-    border: 2px solid #fff;
-    margin: 40px auto;
-    color: #fff;
-    font-family: sans-serif;
-    font-size: 1.4em;
+    color:#fff;
     text-decoration: none;
-    line-height: 2.5em;
-}
-
-header.hero .fa{
-    font-size: 4em;
-    display: block;
-}
-
-
-
-header.hero a:hover{
-    background: #fff;
-    color: #123A52;
-}
-
-
-/* CLASES REUTILIZABLES */
-
-.caract{
     text-align: center;
-    color:#666;
-display:block;
-text-decoration: none;}
-
-.caract .fa{
-    font-size: 3.6em;
-    color:#fff;
-margin: 10px;
-width: 120px;
-height: 120px;
-border: 5px solid #fff;
-line-height: 2.1em;
-border-radius: 50%;
-background:red;}
-
-.caract .titulo{
-    font-family: Arial, sans-serif;
-    font-size: 3em;}
-
-.caract .descripcion{
-    color:blueviolet;
-    font-size: 1.2em;
-    margin: 10px;}
-
-
-/* CARACTERISTICAS */
-
-.caracteristicas{
-    padding: 80px 0;
-    overflow: hidden;}
-
-.caracteristicas .caract{
-    width: 25%;
-    float: left;
+    padding: 10px 20px;
 }
-
-
-/* BOTON */
-
-
-section.boton{
-    background:#123A52;
-    padding: 80px 0;}
-
-section.boton .caract .titulo{
-    color:#fff;
-    font-size: 2em;}
-
-section.boton .caract .fa{
+.menu a:hover{
+    background:#F0E68C;
+color:#000;
+}
+    
+.menu a .fa{
+font-size: .8em;
+}
+/* MEDIA QUERIE : TABLET */
+@media (min-width:721px) and (max-width:1199px){
+   header{
     background: #fff;
-    color: aqua}
+  }
+  .menu{
+    background: #000;
+  }
+}
 
-
-/* RESPONSIVE : MEDIA QUERIES */
-/* ESTADO */ 
-
-/* TABLETS */
-
-
-@media (max-width: 800px) {
-    
-    header.hero{
-        background: green;}
-    
-    header.hero h1{
-        font-size: 2em;
+/* MEDIA QUERIE : MOVIL */
+@media (max-width:720px){
+  header{
+    background: #fff;
+  }
+    .menu a{
+        background: #000;
+     
     }
-    
-    header.hero h1 .fa{
-        font-size: 2em;}
-    
-    header.hero a{
-        background:red;
-    color: forestgreen;}
-    
-    .caracteristicas .caract{
-        width: 50%;}
-    
+    .menu a .fa{
+        display: block;
+        font-size: 2em;
+        margin: 4px;
+    }
 }
 
 
-/* moviles */
-
-@media (max-width:600px){
-    .caracteristicas .caract{
-        width: 100%}
-    
-
-
+.contenedor1{
+      height: 80%;
+  background: #FFF;
+  margin-top: 20px;
+  padding: 60px 30px 0;
 }
-    
+.contenedor1 div{
+  height: 80%;
+  background: #FFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+footer
+{
+      height: 5%;
+  background: #000000;
+  margin-top: 20px;
+  padding: 0px 30px 0;
+}
